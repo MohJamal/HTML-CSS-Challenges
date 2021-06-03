@@ -76,6 +76,7 @@ footer {
 }
 
 .introduction {
+  
 }
 
 #badge {
@@ -192,4 +193,92 @@ footer {
 
 .programs .card {
   display: block;
+}
+
+
+/*My work*/
+#logo{
+  border: none;
+}
+.introduction{
+background-color: #fff;
+}
+
+*{
+  word-spacing: 0.3em;
+
+}
+
+.image-container img{
+vertical-align: top !important;
+}
+
+.image-container img:nth-child(1){
+  border: 5px solid red;
+}
+
+.image-container img:nth-child(2){
+  border: 5px solid blue;
+}
+
+.image-container img:nth-child(3){
+  border: 5px solid yellow;
+}
+
+
+.tigers h2 {
+color:#C9C9C9 ;
+}
+
+.giraffe{
+  background-color: #483C46;
+}
+
+.giraffe h2, .giraffe h3{
+  color: #F4743B;
+}
+
+.giraffe p{
+  color: #BEEE62;
+}
+.giraffe p:first-of-type{
+font-size: 1.3rem;
+}
+
+.news h2{
+  text-align: center;
+}
+
+.education button{
+  font-size: 1rem;
+}
+
+.education button:hover,
+.education button:focus{
+  transition: 0.6s;
+  color: #372772;
+  background-color: #fff;
+}
+
+.education-container{
+  border-radius: 5px;
+}
+
+.membership p{
+  max-width: 700px;
+  margin: 16px auto;
+}
+
+.programs-cards-container{
+  display: flex;
+}
+
+
+#badge{
+  bottom: unset;
+  top: 20px;
+}
+
+#badge:hover{
+  transition: 0.6s;
 }
